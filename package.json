@@ -1,0 +1,16 @@
+{
+  "name": "modelscan-registry",
+  "version": "1.0.0",
+  "description": "An open registry of large-language-model metadata (models.json + schema).",
+  "private": true,
+  "type": "module",
+  "license": "CC-BY-4.0",
+  "homepage": "https://modelscan.io/",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}
