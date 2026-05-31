@@ -1,5 +1,7 @@
 # modelscan registry
 
+English | [简体中文](README.zh-CN.md)
+
 **An open registry of large-language-model metadata.** One machine-consumable JSON file —
 `models.json` — describing model identity, authorship, modalities, context/output limits,
 capabilities, lifecycle, and per-source commercial offers (prices, endpoints, rate limits) with
@@ -58,15 +60,18 @@ in CI against [`schema/models.schema.json`](schema/models.schema.json) (JSON Sch
 
 ### Key ideas
 
+- **Stable identity.** Every model has one canonical `id`. Dated snapshots fold to their base id, and
+  the dated / vendor-prefixed forms are preserved in `alias_id` — so the same model is never split into
+  two rows across sources. `author` is always a provider id, so a developer never appears under two
+  spellings.
+- **Two currencies.** Pricing is kept in its native currency — never lossily converted: USD offers from
+  OpenRouter / LiteLLM, CNY offers from Alibaba Bailian (百炼) / Volcengine Ark (火山方舟). A single
+  model can carry both, side by side.
 - **Facts vs offers.** Top-level fields are source-agnostic *facts* merged per field across sources.
   Commercial data (prices, endpoint paths, rate limits) lives in `offers[]`, one per source, each
   carrying its `source` as provenance — so you can see where every number came from.
-- **Two currencies.** USD offers come from OpenRouter / LiteLLM; CNY offers from Alibaba Bailian /
-  Volcengine Ark. A model can carry both.
 - **Tiered & conditional pricing.** `prices[]` is a list of tiers; a tier may carry `conditions`
   (input-length thresholds, or a `variant` label for axes like video resolution / audio).
-- **Stable identity.** Dated snapshots fold to a base id; the dated/vendor-prefixed forms are kept
-  in `alias_id`. `author` is always a provider id, so a developer never gets two spellings.
 - **Lifecycle.** A model that disappears from every source is marked
   `deprecation: { status: "delisted", since }` and kept, never deleted.
 
