@@ -9885,7 +9885,7 @@
       "context_length": null,
       "max_input_tokens": null,
       "max_output_tokens": null,
-      "release_timestamp": null,
+      "release_timestamp": 1771113600,
       "last_updated": "2026-06-02T18:08:28.417Z",
       "author": "bytedance",
       "author_id": "bytedance",
