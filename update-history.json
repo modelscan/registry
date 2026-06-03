@@ -1,6 +1,36 @@
 {
   "batches": [
     {
+      "batch_id": "2026-06-03T23-04-25-140Z",
+      "generated_at": "2026-06-03T23:04:25.140Z",
+      "summary": {
+        "added": 0,
+        "changed": 1,
+        "delisted": 11,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [
+        "qwen3.7-plus"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
       "batch_id": "2026-06-03T11-03-56-855Z",
       "generated_at": "2026-06-03T11:03:56.855Z",
       "summary": {
