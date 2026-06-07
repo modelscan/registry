@@ -114,6 +114,7 @@
         "max_output_tokens": { "type": ["integer", "null"] },
         "release_timestamp": { "type": ["integer", "null"] },
         "last_updated": { "type": "string" },
+        "open_weights_url": { "type": "string", "format": "uri" },
         "offers": { "type": "array", "items": { "$ref": "#/$defs/offer" } },
         "other_parameters": { "type": "object" },
         "deprecation": {
