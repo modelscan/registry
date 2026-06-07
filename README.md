@@ -9,6 +9,26 @@ the originating source kept as provenance.
 
 Public site: <https://modelscan.io/>
 
+## What's covered
+
+**1,200+ models** from every major lab, across every modality — text, image, video, audio,
+embeddings and rerank — each with identity, modalities, context / output limits, capabilities and
+pricing in both USD and CNY. A small sample of what's inside:
+
+- **Chat & reasoning** — OpenAI **GPT-5**, GPT-5 Codex, GPT-4o, o-series; Anthropic **Claude Opus**,
+  Claude Sonnet, Claude Haiku; Google **Gemini**; xAI **Grok**; **DeepSeek** V3 / R1; **Qwen3**;
+  Meta **Llama**; Mistral / Codestral; Moonshot **Kimi K2**; Zhipu **GLM-4.5**; **MiniMax** M1 / M2.
+- **Image generation** — Google **Nano Banana** (Gemini 2.5 Flash Image) and Nano Banana Pro, Imagen;
+  OpenAI **GPT Image**; Black Forest Labs **FLUX**; ByteDance **Seedream**; **Recraft**; Kling Image.
+- **Video generation** — OpenAI **Sora 2**; Google **Veo 3**; ByteDance **Seedance 2**; Kuaishou
+  **Kling**; MiniMax **Hailuo**; Alibaba **Wan**.
+- **Embeddings & rerank** — OpenAI text-embedding-3; BAAI **BGE**; **E5**; Gemini Embedding;
+  **Cohere Rerank**; **Voyage**.
+- **Speech & audio** — **Whisper**, Kokoro, and other TTS / transcription models.
+
+Facts and prices are merged from OpenRouter, LiteLLM, Alibaba Bailian (百炼) and Volcengine Ark
+(火山方舟), so a single model can carry both USD and CNY pricing side by side.
+
 ## Consume it
 
 The canonical, always-current file:

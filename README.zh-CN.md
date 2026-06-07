@@ -6,6 +6,18 @@
 
 公开站点:<https://modelscan.io/>
 
+## 收录范围
+
+**1200+ 模型**,覆盖各大厂牌、全部模态 —— 文本、图像、视频、音频、embedding 与 rerank —— 每个都带身份、模态、上下文 / 输出上限、能力,以及美元和人民币双币种价格。部分样例:
+
+- **对话与推理** —— OpenAI **GPT-5**、GPT-5 Codex、GPT-4o、o 系列;Anthropic **Claude Opus**、Claude Sonnet、Claude Haiku;Google **Gemini**;xAI **Grok**;**DeepSeek** V3 / R1;**Qwen3**(通义千问);Meta **Llama**;Mistral / Codestral;月之暗面 **Kimi K2**;智谱 **GLM-4.5**;**MiniMax**(海螺)M1 / M2。
+- **图像生成** —— Google **Nano Banana**(Gemini 2.5 Flash Image)与 Nano Banana Pro、Imagen;OpenAI **GPT Image**;Black Forest Labs **FLUX**;字节跳动 **Seedream**(即梦);**Recraft**;可灵 Kling Image。
+- **视频生成** —— OpenAI **Sora 2**;Google **Veo 3**;字节跳动 **Seedance 2**(即梦视频);快手 **可灵 Kling**;MiniMax **Hailuo**(海螺);阿里 **Wan**(通义万相)。
+- **Embedding 与 Rerank** —— OpenAI text-embedding-3;BAAI **BGE**;**E5**;Gemini Embedding;**Cohere Rerank**;**Voyage**。
+- **语音与音频** —— **Whisper**、Kokoro,以及其他 TTS / 转写模型。
+
+事实与价格来自 OpenRouter、LiteLLM、阿里云百炼、火山方舟,所以同一个模型可以并列携带美元和人民币两种价格。
+
 ## 如何消费
 
 规范的、始终最新的文件:
