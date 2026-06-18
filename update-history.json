@@ -1,11 +1,11 @@
 {
   "batches": [
     {
-      "batch_id": "2026-06-18T11-02-32-980Z",
-      "generated_at": "2026-06-18T11:02:32.980Z",
+      "batch_id": "2026-06-18T11-03-34-632Z",
+      "generated_at": "2026-06-18T11:03:34.632Z",
       "summary": {
         "added": 4,
-        "changed": 3,
+        "changed": 2,
         "delisted": 20,
         "dropped": 0,
         "folded": 0
@@ -18,7 +18,6 @@
       ],
       "changed": [
         "qwen-2.5-7b-instruct",
-        "qwen3-embedding-8b",
         "qwen3.5-ocr"
       ],
       "delisted": [
@@ -47,11 +46,11 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-17T23-02-22-790Z",
-      "generated_at": "2026-06-17T23:02:22.790Z",
+      "batch_id": "2026-06-17T23-02-51-197Z",
+      "generated_at": "2026-06-17T23:02:51.197Z",
       "summary": {
         "added": 0,
-        "changed": 3,
+        "changed": 2,
         "delisted": 20,
         "dropped": 0,
         "folded": 0
@@ -59,8 +58,7 @@
       "added": [],
       "changed": [
         "gemini-2.5-flash-image",
-        "gemini-3-flash-preview",
-        "qwen3-embedding-8b"
+        "gemini-3-flash-preview"
       ],
       "delisted": [
         "codellama-7b-instruct-solidity",
@@ -88,8 +86,8 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-17T11-02-10-586Z",
-      "generated_at": "2026-06-17T11:02:10.586Z",
+      "batch_id": "2026-06-17T11-02-43-107Z",
+      "generated_at": "2026-06-17T11:02:43.107Z",
       "summary": {
         "added": 1,
         "changed": 2,
@@ -129,8 +127,8 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-16T23-02-30-264Z",
-      "generated_at": "2026-06-16T23:02:30.264Z",
+      "batch_id": "2026-06-16T23-03-13-470Z",
+      "generated_at": "2026-06-16T23:03:13.470Z",
       "summary": {
         "added": 1,
         "changed": 3,
@@ -171,11 +169,11 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-16T11-02-18-183Z",
-      "generated_at": "2026-06-16T11:02:18.183Z",
+      "batch_id": "2026-06-16T11-03-18-643Z",
+      "generated_at": "2026-06-16T11:03:18.643Z",
       "summary": {
         "added": 0,
-        "changed": 2,
+        "changed": 3,
         "delisted": 19,
         "dropped": 0,
         "folded": 0
@@ -183,44 +181,7 @@
       "added": [],
       "changed": [
         "deepseek-r1-distill-qwen-32b",
-        "hy3-preview"
-      ],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-16T03-19-32-930Z",
-      "generated_at": "2026-06-16T03:19:32.930Z",
-      "summary": {
-        "added": 0,
-        "changed": 1,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [
+        "hy3-preview",
         "qwen3.5-397b-a17b"
       ],
       "delisted": [
@@ -248,16 +209,18 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-15T23-02-36-467Z",
-      "generated_at": "2026-06-15T23:02:36.467Z",
+      "batch_id": "2026-06-15T23-03-47-273Z",
+      "generated_at": "2026-06-15T23:03:47.273Z",
       "summary": {
-        "added": 0,
+        "added": 1,
         "changed": 5,
         "delisted": 19,
         "dropped": 0,
         "folded": 0
       },
-      "added": [],
+      "added": [
+        "doubao-seedance-2-0-mini"
+      ],
       "changed": [
         "deepseek-v4-flash",
         "fusion",
@@ -290,224 +253,8 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-15T11-02-21-586Z",
-      "generated_at": "2026-06-15T11:02:21.586Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T10-42-35-516Z",
-      "generated_at": "2026-06-15T10:42:35.516Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T09-25-26-085Z",
-      "generated_at": "2026-06-15T09:25:26.085Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T08-51-30-652Z",
-      "generated_at": "2026-06-15T08:51:30.652Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T08-47-13-116Z",
-      "generated_at": "2026-06-15T08:47:13.116Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T08-07-53-022Z",
-      "generated_at": "2026-06-15T08:07:53.022Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T07-48-04-861Z",
-      "generated_at": "2026-06-15T07:48:04.861Z",
+      "batch_id": "2026-06-15T11-03-32-215Z",
+      "generated_at": "2026-06-15T11:03:32.215Z",
       "summary": {
         "added": 0,
         "changed": 1,
@@ -519,114 +266,6 @@
       "changed": [
         "kimi-k2.7-code"
       ],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T06-12-27-934Z",
-      "generated_at": "2026-06-15T06:12:27.934Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T06-11-53-008Z",
-      "generated_at": "2026-06-15T06:11:53.008Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-15T05-47-33-334Z",
-      "generated_at": "2026-06-15T05:47:33.334Z",
-      "summary": {
-        "added": 0,
-        "changed": 0,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [],
-      "changed": [],
       "delisted": [
         "codellama-7b-instruct-solidity",
         "deepseek-v3.1-nex-n1",
