@@ -1,17 +1,20 @@
 {
   "batches": [
     {
-      "batch_id": "2026-06-19T11-34-49-287Z",
-      "generated_at": "2026-06-19T11:34:49.287Z",
+      "batch_id": "2026-06-19T23-05-18-524Z",
+      "generated_at": "2026-06-19T23:05:18.524Z",
       "summary": {
         "added": 0,
-        "changed": 0,
+        "changed": 2,
         "delisted": 20,
         "dropped": 0,
         "folded": 0
       },
       "added": [],
-      "changed": [],
+      "changed": [
+        "kimi-k2.7-code",
+        "llama-3-70b-instruct"
+      ],
       "delisted": [
         "codellama-7b-instruct-solidity",
         "deepseek-v3.1-nex-n1",
@@ -38,28 +41,19 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-19T08-50-36-354Z",
-      "generated_at": "2026-06-19T08:50:36.354Z",
+      "batch_id": "2026-06-19T11-02-31-289Z",
+      "generated_at": "2026-06-19T11:02:31.289Z",
       "summary": {
         "added": 0,
-        "changed": 15,
+        "changed": 6,
         "delisted": 20,
         "dropped": 0,
         "folded": 0
       },
       "added": [],
       "changed": [
-        "gemini-3.1-flash-image",
-        "gemini-3.1-flash-image-preview",
         "glm-5.2",
-        "gpt-5-mini",
-        "gpt-5.1-chat",
-        "gpt-5.2-chat",
-        "kat-coder-pro-v2",
-        "kimi-k2-thinking",
-        "minimax-m3",
-        "qwen3.5-35b-a3b",
-        "qwen3.5-9b",
+        "gpt-oss-safeguard-20b",
         "recraft-v4.1",
         "recraft-v4.1-pro",
         "recraft-v4.1-utility",
@@ -91,11 +85,11 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-18T23-31-49-608Z",
-      "generated_at": "2026-06-18T23:31:49.608Z",
+      "batch_id": "2026-06-18T23-02-17-171Z",
+      "generated_at": "2026-06-18T23:02:17.171Z",
       "summary": {
         "added": 2,
-        "changed": 13,
+        "changed": 4,
         "delisted": 20,
         "dropped": 0,
         "folded": 0
@@ -105,18 +99,9 @@
         "laguna-xs.2"
       ],
       "changed": [
-        "gemini-3.1-flash-image",
-        "gemini-3.1-flash-image-preview",
         "glm-5.2",
-        "gpt-5-mini",
-        "gpt-5.1-chat",
-        "gpt-5.2-chat",
-        "gpt-oss-safeguard-20b",
-        "kat-coder-pro-v2",
-        "kimi-k2-thinking",
         "kimi-k2.6",
-        "minimax-m3",
-        "qwen3.5-9b",
+        "qwen3.5-35b-a3b",
         "qwen3.6-35b-a3b"
       ],
       "delisted": [
@@ -145,19 +130,26 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-18T11-32-24-914Z",
-      "generated_at": "2026-06-18T11:32:24.914Z",
+      "batch_id": "2026-06-18T11-02-32-980Z",
+      "generated_at": "2026-06-18T11:02:32.980Z",
       "summary": {
-        "added": 1,
-        "changed": 0,
+        "added": 4,
+        "changed": 3,
         "delisted": 20,
         "dropped": 0,
         "folded": 0
       },
       "added": [
+        "fun-asr-flash",
+        "gemini-3-pro-image",
+        "gemini-3.1-flash-image",
         "kimi-k2.7-code-highspeed"
       ],
-      "changed": [],
+      "changed": [
+        "qwen-2.5-7b-instruct",
+        "qwen3-embedding-8b",
+        "qwen3.5-ocr"
+      ],
       "delisted": [
         "codellama-7b-instruct-solidity",
         "deepseek-v3.1-nex-n1",
@@ -184,35 +176,20 @@
       "folded": []
     },
     {
-      "batch_id": "2026-06-18T08-46-48-125Z",
-      "generated_at": "2026-06-18T08:46:48.125Z",
+      "batch_id": "2026-06-17T23-02-22-790Z",
+      "generated_at": "2026-06-17T23:02:22.790Z",
       "summary": {
-        "added": 5,
-        "changed": 12,
+        "added": 0,
+        "changed": 3,
         "delisted": 20,
         "dropped": 0,
         "folded": 0
       },
-      "added": [
-        "fun-asr-flash",
-        "gemini-3-pro-image",
-        "gemini-3.1-flash-image",
-        "glm-5.2",
-        "qwen3.5-ocr"
-      ],
+      "added": [],
       "changed": [
-        "deepseek-r1-distill-qwen-32b",
-        "fusion",
         "gemini-2.5-flash-image",
         "gemini-3-flash-preview",
-        "glm-4.5-air",
-        "grok-4.20-multi-agent",
-        "hy3-preview",
-        "kimi-k2.7-code",
-        "nemotron-3-ultra-550b-a55b",
-        "qwen-2.5-7b-instruct",
-        "qwen3.5-35b-a3b",
-        "qwen3.5-397b-a17b"
+        "qwen3-embedding-8b"
       ],
       "delisted": [
         "codellama-7b-instruct-solidity",
@@ -231,6 +208,280 @@
         "l3-euryale-70b",
         "maestro-reasoning",
         "mimo-v2-flash",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-17T11-02-10-586Z",
+      "generated_at": "2026-06-17T11:02:10.586Z",
+      "summary": {
+        "added": 1,
+        "changed": 2,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [
+        "qwen3.5-ocr"
+      ],
+      "changed": [
+        "glm-5.2",
+        "nemotron-3-ultra-550b-a55b"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "glm-5v-turbo",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-16T23-02-30-264Z",
+      "generated_at": "2026-06-16T23:02:30.264Z",
+      "summary": {
+        "added": 1,
+        "changed": 3,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [
+        "glm-5.2"
+      ],
+      "changed": [
+        "deepseek-v4-flash",
+        "glm-4.5-air",
+        "kimi-k2.7-code"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "glm-5v-turbo",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-16T11-02-18-183Z",
+      "generated_at": "2026-06-16T11:02:18.183Z",
+      "summary": {
+        "added": 0,
+        "changed": 2,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [
+        "deepseek-r1-distill-qwen-32b",
+        "hy3-preview"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "glm-5v-turbo",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-16T03-19-32-930Z",
+      "generated_at": "2026-06-16T03:19:32.930Z",
+      "summary": {
+        "added": 0,
+        "changed": 1,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [
+        "qwen3.5-397b-a17b"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "glm-5v-turbo",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-15T23-02-36-467Z",
+      "generated_at": "2026-06-15T23:02:36.467Z",
+      "summary": {
+        "added": 0,
+        "changed": 5,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [
+        "deepseek-v4-flash",
+        "fusion",
+        "grok-4.20-multi-agent",
+        "kimi-k2.7-code",
+        "qwen3.5-35b-a3b"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "glm-5v-turbo",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-15T11-02-21-586Z",
+      "generated_at": "2026-06-15T11:02:21.586Z",
+      "summary": {
+        "added": 0,
+        "changed": 0,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "glm-5v-turbo",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-15T10-42-35-516Z",
+      "generated_at": "2026-06-15T10:42:35.516Z",
+      "summary": {
+        "added": 0,
+        "changed": 0,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "glm-5v-turbo",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
         "mimo-v2-omni",
         "mimo-v2-pro",
         "qianfan-ocr-fast",
