@@ -1,18 +1,26 @@
 {
   "batches": [
     {
-      "batch_id": "2026-06-22T23-04-24-982Z",
-      "generated_at": "2026-06-22T23:04:24.982Z",
+      "batch_id": "2026-06-23T23-04-32-665Z",
+      "generated_at": "2026-06-23T23:04:32.665Z",
       "summary": {
         "added": 0,
-        "changed": 1,
-        "delisted": 19,
+        "changed": 9,
+        "delisted": 21,
         "dropped": 0,
         "folded": 0
       },
       "added": [],
       "changed": [
-        "glm-5.2"
+        "glm-5.2",
+        "kimi-k2.7-code",
+        "minimax-m2.7",
+        "nex-n2-pro",
+        "phi-4",
+        "rocinante-12b",
+        "seedance-1-5-pro",
+        "seedance-2.0",
+        "seedance-2.0-fast"
       ],
       "delisted": [
         "codellama-7b-instruct-solidity",
@@ -27,12 +35,14 @@
         "ernie-4.5-vl-28b-a3b",
         "glm-4-32b",
         "hermes-2-pro-llama-3-8b",
+        "intellect-3",
         "l3-euryale-70b",
         "maestro-reasoning",
         "mimo-v2-flash",
         "mimo-v2-omni",
         "mimo-v2-pro",
         "qianfan-ocr-fast",
+        "rnj-1-instruct",
         "spotlight"
       ],
       "dropped": [],
