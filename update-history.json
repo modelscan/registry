@@ -1,17 +1,73 @@
 {
   "batches": [
     {
-      "batch_id": "2026-07-02T03-29-17-862Z",
-      "generated_at": "2026-07-02T03:29:17.862Z",
+      "batch_id": "2026-07-02T04-20-35-480Z",
+      "generated_at": "2026-07-02T04:20:35.480Z",
       "summary": {
-        "added": 11,
-        "changed": 45,
+        "added": 0,
+        "changed": 6,
         "delisted": 24,
         "dropped": 0,
-        "folded": 5
+        "folded": 6
+      },
+      "added": [],
+      "changed": [
+        "claude-fable-5",
+        "claude-opus-4.6",
+        "claude-opus-4.7",
+        "claude-opus-4.8",
+        "claude-sonnet-4.6",
+        "claude-sonnet-5"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "hermes-2-pro-llama-3-8b",
+        "intellect-3",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-flash",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "riverflow-v2-fast-preview",
+        "riverflow-v2-max-preview",
+        "riverflow-v2-standard-preview",
+        "rnj-1-instruct",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": [
+        "claude-fable-5-default",
+        "claude-opus-4-6-default",
+        "claude-opus-4-7-default",
+        "claude-opus-4-8-default",
+        "claude-sonnet-4-6-default",
+        "claude-sonnet-5-default"
+      ]
+    },
+    {
+      "batch_id": "2026-07-02T03-04-16-462Z",
+      "generated_at": "2026-07-02T03:04:16.462Z",
+      "summary": {
+        "added": 12,
+        "changed": 39,
+        "delisted": 24,
+        "dropped": 0,
+        "folded": 0
       },
       "added": [
         "claude-sonnet-5",
+        "claude-sonnet-5-default",
         "fugu-ultra",
         "gemini-3.1-flash-lite-image",
         "gemma-4-26b",
@@ -24,12 +80,7 @@
         "titan-embed-g1-text-02"
       ],
       "changed": [
-        "claude-fable-5",
-        "claude-opus-4.6",
         "claude-opus-4.6-fast",
-        "claude-opus-4.7",
-        "claude-opus-4.8",
-        "claude-sonnet-4.6",
         "deepseek-v3-0324",
         "deepseek-v3.2",
         "deepseek-v4-flash",
@@ -55,7 +106,6 @@
         "minimax-m2.5",
         "minimax-m2.7",
         "nemotron-3-super-120b-a12b",
-        "nex-n2-pro",
         "phi-4",
         "phi-4-mini-instruct",
         "qwen3-235b-a22b-thinking-2507",
@@ -97,13 +147,47 @@
         "spotlight"
       ],
       "dropped": [],
-      "folded": [
-        "claude-fable-5-default",
-        "claude-opus-4-6-default",
-        "claude-opus-4-7-default",
-        "claude-opus-4-8-default",
-        "claude-sonnet-4-6-default"
-      ]
+      "folded": []
+    },
+    {
+      "batch_id": "2026-06-23T11-35-18-616Z",
+      "generated_at": "2026-06-23T11:35:18.616Z",
+      "summary": {
+        "added": 0,
+        "changed": 3,
+        "delisted": 19,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [
+        "glm-5.2",
+        "kimi-k2.7-code",
+        "nex-n2-pro"
+      ],
+      "delisted": [
+        "codellama-7b-instruct-solidity",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "hermes-2-pro-llama-3-8b",
+        "l3-euryale-70b",
+        "maestro-reasoning",
+        "mimo-v2-flash",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "spotlight"
+      ],
+      "dropped": [],
+      "folded": []
     },
     {
       "batch_id": "2026-06-22T08-50-55-664Z",
