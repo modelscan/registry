@@ -1,6 +1,63 @@
 {
   "batches": [
     {
+      "batch_id": "2026-07-18T11-04-50-923Z",
+      "generated_at": "2026-07-18T11:04:50.923Z",
+      "summary": {
+        "added": 0,
+        "changed": 6,
+        "delisted": 33,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [
+        "glm-5.2",
+        "kimi-k2-thinking",
+        "kimi-k2.7-code",
+        "qwen3-14b",
+        "qwen3-30b-a3b",
+        "qwen3.5-27b"
+      ],
+      "delisted": [
+        "aion-1.0",
+        "aion-1.0-mini",
+        "codellama-7b-instruct-solidity",
+        "coder-large",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "hermes-2-pro-llama-3-8b",
+        "intellect-3",
+        "l3-euryale-70b",
+        "l3.1-70b-hanami-x1",
+        "laguna-xs.2",
+        "lfm-2-24b-a2b",
+        "llama-3-8b-instruct",
+        "llama-3.3-nemotron-super-49b-v1.5",
+        "maestro-reasoning",
+        "mimo-v2-flash",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "riverflow-v2-fast-preview",
+        "riverflow-v2-max-preview",
+        "riverflow-v2-standard-preview",
+        "rnj-1-instruct",
+        "spotlight",
+        "trinity-mini"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
       "batch_id": "2026-07-17T23-04-41-632Z",
       "generated_at": "2026-07-17T23:04:41.632Z",
       "summary": {
