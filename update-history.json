@@ -1,6 +1,77 @@
 {
   "batches": [
     {
+      "batch_id": "2026-07-30T11-05-16-878Z",
+      "generated_at": "2026-07-30T11:05:16.878Z",
+      "summary": {
+        "added": 0,
+        "changed": 7,
+        "delisted": 46,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [],
+      "changed": [
+        "deepseek-chat",
+        "gemini-3.1-flash-lite-image",
+        "gemma-4-31b-it",
+        "glm-5.2",
+        "nemotron-3-ultra-550b-a55b",
+        "qwen-2.5-7b-instruct",
+        "qwen3-vl-30b-a3b-instruct"
+      ],
+      "delisted": [
+        "aion-1.0",
+        "aion-1.0-mini",
+        "codellama-7b-instruct-solidity",
+        "coder-large",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "gpt-3.5-turbo-batch",
+        "gpt-4-turbo-batch",
+        "gpt-4.1-batch",
+        "gpt-4.1-mini-batch",
+        "gpt-4.1-nano-batch",
+        "gpt-4o-batch",
+        "gpt-4o-mini-batch",
+        "gpt-5.2-pro-batch",
+        "gpt-5.4-pro-batch",
+        "gpt-5.5-pro-batch",
+        "hermes-2-pro-llama-3-8b",
+        "inflection-3-pi",
+        "inflection-3-productivity",
+        "intellect-3",
+        "l3-euryale-70b",
+        "l3.1-70b-hanami-x1",
+        "laguna-m.1",
+        "laguna-xs.2",
+        "lfm-2-24b-a2b",
+        "llama-3-8b-instruct",
+        "llama-3.3-nemotron-super-49b-v1.5",
+        "maestro-reasoning",
+        "mimo-v2-flash",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "riverflow-v2-fast-preview",
+        "riverflow-v2-max-preview",
+        "riverflow-v2-standard-preview",
+        "rnj-1-instruct",
+        "spotlight",
+        "trinity-mini"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
       "batch_id": "2026-07-29T23-05-16-484Z",
       "generated_at": "2026-07-29T23:05:16.484Z",
       "summary": {
@@ -5285,56 +5356,6 @@
       "added": [],
       "changed": [
         "qwen3.6-27b"
-      ],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-06T23-04-05-262Z",
-      "generated_at": "2026-06-06T23:04:05.262Z",
-      "summary": {
-        "added": 6,
-        "changed": 10,
-        "delisted": 15,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [
-        "openai-gpt-4.1",
-        "openai-gpt-5",
-        "openai-gpt-5-mini",
-        "openai-gpt-5-nano",
-        "snowflake-arctic-embed-l-v2.0",
-        "snowflake-arctic-embed-m-v2.0"
-      ],
-      "changed": [
-        "claude-opus-4.7",
-        "gpt-4-1106-preview",
-        "gpt-5.4",
-        "gpt-5.5",
-        "llama-3-8b-instruct",
-        "llama-4-maverick",
-        "llama3.1-405b",
-        "mercury-2",
-        "mistral-large2",
-        "snowflake-llama-3.3-70b"
       ],
       "delisted": [
         "codellama-7b-instruct-solidity",
