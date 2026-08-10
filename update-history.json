@@ -1,6 +1,70 @@
 {
   "batches": [
     {
+      "batch_id": "2026-08-10T23-04-46-448Z",
+      "generated_at": "2026-08-10T23:04:46.448Z",
+      "summary": {
+        "added": 1,
+        "changed": 7,
+        "delisted": 37,
+        "dropped": 0,
+        "folded": 0
+      },
+      "added": [
+        "muse-glimmer-30b"
+      ],
+      "changed": [
+        "glm-5.1",
+        "glm-5.2",
+        "gpt-5.2-chat",
+        "gpt-5.3-chat",
+        "kimi-k2.6",
+        "llama-4-maverick",
+        "qwen3-coder-30b-a3b-instruct"
+      ],
+      "delisted": [
+        "aion-1.0",
+        "aion-1.0-mini",
+        "codellama-7b-instruct-solidity",
+        "coder-large",
+        "deepseek-v3.1-nex-n1",
+        "devstral-medium",
+        "devstral-small",
+        "doubao-1-5-pro-32k-character",
+        "doubao-seed-code-preview",
+        "ernie-4.5-21b-a3b",
+        "ernie-4.5-21b-a3b-thinking",
+        "ernie-4.5-300b-a47b",
+        "ernie-4.5-vl-28b-a3b",
+        "glm-4-32b",
+        "hermes-2-pro-llama-3-8b",
+        "inflection-3-pi",
+        "inflection-3-productivity",
+        "intellect-3",
+        "l3-euryale-70b",
+        "l3.1-70b-hanami-x1",
+        "laguna-m.1",
+        "laguna-xs.2",
+        "lfm-2-24b-a2b",
+        "llama-3-8b-instruct",
+        "llama-3.3-nemotron-super-49b-v1.5",
+        "maestro-reasoning",
+        "mimo-v2-flash",
+        "mimo-v2-omni",
+        "mimo-v2-pro",
+        "qianfan-ocr-fast",
+        "riverflow-v2-fast-preview",
+        "riverflow-v2-max-preview",
+        "riverflow-v2-standard-preview",
+        "rnj-1-instruct",
+        "spotlight",
+        "text-embedding-3-small-batch",
+        "trinity-mini"
+      ],
+      "dropped": [],
+      "folded": []
+    },
+    {
       "batch_id": "2026-08-10T11-05-15-003Z",
       "generated_at": "2026-08-10T11:05:15.003Z",
       "summary": {
@@ -5666,47 +5730,6 @@
         "kimi-k2.5",
         "riverflow-v2.5-fast",
         "riverflow-v2.5-pro"
-      ],
-      "delisted": [
-        "codellama-7b-instruct-solidity",
-        "deepseek-v3.1-nex-n1",
-        "devstral-medium",
-        "devstral-small",
-        "doubao-1-5-pro-32k-character",
-        "doubao-seed-code-preview",
-        "ernie-4.5-21b-a3b",
-        "ernie-4.5-21b-a3b-thinking",
-        "ernie-4.5-300b-a47b",
-        "ernie-4.5-vl-28b-a3b",
-        "glm-4-32b",
-        "glm-5v-turbo",
-        "hermes-2-pro-llama-3-8b",
-        "l3-euryale-70b",
-        "maestro-reasoning",
-        "mimo-v2-omni",
-        "mimo-v2-pro",
-        "qianfan-ocr-fast",
-        "spotlight"
-      ],
-      "dropped": [],
-      "folded": []
-    },
-    {
-      "batch_id": "2026-06-10T11-03-26-770Z",
-      "generated_at": "2026-06-10T11:03:26.770Z",
-      "summary": {
-        "added": 1,
-        "changed": 2,
-        "delisted": 19,
-        "dropped": 0,
-        "folded": 0
-      },
-      "added": [
-        "claude-fable-5-default"
-      ],
-      "changed": [
-        "claude-fable-5",
-        "kimi-k2.5"
       ],
       "delisted": [
         "codellama-7b-instruct-solidity",
